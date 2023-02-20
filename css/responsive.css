@@ -74,5 +74,22 @@
         margin-bottom: 0;
     }
 
+    /* SECTION-5 */
+    .section-5 {
+        max-width: 991px;
+    }
+
+    .section-5 .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .section-5 .card-5 {
+        width: calc(100% / 2 - (20px / 2));
+        margin-bottom: 0;
+    }
+
 
 }
