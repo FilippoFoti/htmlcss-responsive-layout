@@ -17,6 +17,14 @@ body {
 header {
     height: 90px;
     background-color: rgba(0, 132, 253, 1);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-header {
+    height: 90px;
+    width: 90%;
+    background-color: beige;
 }
 
 /* MAIN */
