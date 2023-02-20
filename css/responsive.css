@@ -1,6 +1,15 @@
 /* TABLET */
 
 @media screen and (min-width:768px) {
+    /* HEADER */
+    .header {
+        max-width: 991px;
+    }
+
+    .nav-header {
+        width: 90%;
+    }
+
     /* SECTION-1 */
     .section-1 {
         max-width: 991px;
@@ -136,12 +145,30 @@
 /* DESKTOP */
  @media screen and (min-width: 992px) {
     /* HEADER */
-    header {
+    .header {
         max-width: 1200px;
+        height: 50px;
     }
 
     .nav-header {
         width: 60%;
+        height: 50px;
+    }
+
+    .nav-header img {
+        width: 8%;
+    }
+
+    .list-header {
+        display: block;
+    }
+
+    .nav-header .start {
+        display: block;
+    }
+
+    .nav-header i {
+        display: none;
     }
 
     /* SECTION-1 */
@@ -278,7 +305,7 @@
 
  @media screen and (min-width: 1200px) {
     /* HEADER */
-    header {
+    .header {
         max-width: 100%;
     }
 

@@ -12,20 +12,79 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* HEADER */
 
-header {
-    height: 90px;
+.header {
+    height: 80px;
+    width: 100%;
     background-color: rgba(0, 132, 253, 1);
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0px -7px 14px black;
 }
 
 .nav-header {
-    height: 90px;
-    width: 90%;
-    background-color: beige;
+    height: 80px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.nav-header i {
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* DESKTOP */
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header ul li {
+    height: 80px;
+    list-style-type: none;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.start {
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.7rem;
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.list-header {
+    display: none;
+}
+
+.nav-header .start {
+    display: none;
+}
+
 
 /* MAIN */
 
