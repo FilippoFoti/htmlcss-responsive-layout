@@ -92,4 +92,36 @@
     }
 
     /* SECTION-6 */
+    .section-6 {
+        max-width: 991px;
+    }
+
+    .section-6 .container {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .section-6 .card-6 {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    /* FOOTER */
+    footer {
+        max-width: 991px;
+    }
+
+    footer .container-footer {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    footer .card-footer {
+        width: 100%;
+        margin-bottom: 0;
+    }
 }
