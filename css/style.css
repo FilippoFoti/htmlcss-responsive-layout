@@ -144,6 +144,14 @@ header {
     margin-bottom: 35px;
 }
 
+.section-5 .card-5-img {
+    height: 400px;
+    background-color: rgba(151, 146, 228, 1);
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom: 35px;
+}
+
 /* SECTION-6 */
 .section-6 {
     background-color: rgba(151, 146, 228, 1);
