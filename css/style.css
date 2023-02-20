@@ -157,5 +157,23 @@ header {
     margin-bottom: 35px;
 }
 
-
 /* FOOTER */
+footer {
+    background-color: rgba(51, 51, 51, 1);
+}
+
+footer .container-footer {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+footer .card-footer {
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom: 35px;
+}
