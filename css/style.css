@@ -21,6 +21,7 @@ header {
 
 /* MAIN */
 
+/* SECTION-1 */
 .section-1 {
     background-color: white;
 }
@@ -30,7 +31,8 @@ header {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .section-1 .card-large {
@@ -48,7 +50,35 @@ header {
     border-radius: 30px;
     padding: 40px;
     margin-bottom: 35px;
-
 }
+
+/* SECTION-2 */
+.section-2 {
+    background-color: rgba(151, 146, 228, 1);
+}
+
+.section-2 .container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.section-2 .card-2 {
+    height: 650px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px;
+    margin-bottom: 35px;
+}
+
+
+
+/* SECTION-3 */
+/* SECTION-4 */
+/* SECTION-5 */
+/* SECTION-6 */
+
 
 /* FOOTER */
