@@ -273,3 +273,79 @@
         margin-bottom: 0;
     }
  }
+
+ /* DESKTOP LARGE */
+
+ @media screen and (min-width: 1200px) {
+    /* HEADER */
+    header {
+        max-width: 100%;
+    }
+
+    .nav-header {
+        width: 720px;
+    }
+
+    /* SECTION-1 */
+    .section-1 {
+        max-width: 100%;
+    }
+
+    .section-1 .container {
+        width: 720px;
+    }
+
+    /* SECTION-2 */
+    .section-2 {
+        max-width: 100%;
+    }
+
+    .section-2 .container {
+        width: 720px;
+    }
+
+    /* SECTION-3 */
+    .section-3 {
+        max-width: 100%;
+    }
+
+    .section-3 .container {
+        width: 720px;
+    }
+
+    /* SECTION-4 */
+    .section-4 {
+        max-width: 100%;
+    }
+
+    .section-4 .container {
+        width: 720px;
+    }
+
+    /* SECTION-5 */
+    .section-5 {
+        max-width: 100%;
+    }
+
+    .section-5 .container {
+        width: 720px;
+    }
+
+    /* SECTION-6 */
+    .section-6 {
+        max-width: 100%;
+    }
+
+    .section-6 .container {
+        width: 720px;
+    }
+
+    /* FOOTER */
+    footer {
+        max-width: 100%;
+    }
+
+    footer .container-footer {
+        width: 720px;
+    }
+ }
