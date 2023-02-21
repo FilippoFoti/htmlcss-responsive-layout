@@ -156,16 +156,32 @@
     }
 
     .section-5 .card-5 {
-        /* width: calc(100% / 10 * 6 - (20px / 2)); */
         margin-bottom: 0;
         width: calc(60% - (20px / 2));
     }
 
     .section-5 .card-5-img {
-        /* width: calc(100% / 10  * 4 - (20px / 2)); */
         margin-bottom: 0;
         width: calc(40% - (20px / 2));
+        position: relative;
     }
+
+    .section-5 .card-5-img .fa-quote-left {
+        font-size: 3.5rem;
+        position: absolute;
+        top: 0;
+        left: 130px;
+    }
+
+    .section-5 .card-5-img img {
+        height: 170px;
+        width: 170px;
+    }
+
+    .section-5 .card-5-img h3 {
+        font-size: 1.5rem;
+    }
+
 
     /* SECTION-6 */
     .section-6 {
@@ -411,6 +427,14 @@
     .section-5 .card-5-img {
         width: calc(100% / 3 - (20px / 2));
         margin-bottom: 0;
+    }
+
+    .section-5 .card-5 p {
+        font-size: 1rem;
+    }
+
+    .section-5 .card-5-img .linkedin {
+        padding: 5px 10px;
     }
 
     /* SECTION-6 */

@@ -348,19 +348,59 @@ img {
 }
 
 .section-5 .card-5 {
-    height: 400px;
-    background-color: rgba(151, 146, 228, 1);
-    border-radius: 30px;
-    padding: 40px;
+    color: rgba(151, 146, 228, 1);
     margin-bottom: 35px;
 }
 
 .section-5 .card-5-img {
-    height: 400px;
-    background-color: rgba(151, 146, 228, 1);
-    border-radius: 30px;
-    padding: 40px;
     margin-bottom: 35px;
+    position: relative;
+}
+
+.section-5 .card-5 h2 {
+    font-size: 3rem;
+    color: rgba(151, 146, 228, 1);
+    padding-bottom: 30px;
+}
+
+.section-5 .card-5 p {
+    font-size: 1.1rem;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.section-5 .card-5-img img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.section-5 .card-5-img .fa-quote-left {
+    font-size: 4.5rem;
+    color: rgba(151, 146, 228, 1);
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.section-5 .card-5-img h3 {
+    font-size: 2rem;
+    color: rgba(151, 146, 228, 1);
+    padding: 30px 0;
+}
+
+.section-5 .card-5-img .linkedin {
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 7px 20px;
+    background-color: rgba(151, 146, 228, 1);
+    border-color: rgba(151, 146, 228, 1);
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    display: inline-block;
 }
 
 /* SECTION-6 */
