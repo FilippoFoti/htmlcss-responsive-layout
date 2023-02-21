@@ -73,7 +73,31 @@
     .section-3 .card-3 {
         width: 100%;
         margin-bottom: 0;
+        display: flex;
+        align-items: center;
     }
+
+    .section-3 .card-text {
+        padding-left: 20px;
+        text-align: start;
+    }
+
+    .section-3 .card-3-white p {
+        font-size: 0.9rem;
+    }
+
+    .section-3 .card-3 p {
+        font-size: 0.9rem;
+    }
+
+    .section-3 .card-3 h3 {
+        font-size: 1rem;
+        padding-bottom: 30px;
+    }
+
+
+    
+
 
     /* SECTION-4 */
     .section-4 {
