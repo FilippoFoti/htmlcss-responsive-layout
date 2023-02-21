@@ -413,15 +413,60 @@ img {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 60px 0;
+    padding-top: 60px;
 }
 
 .section-6 .card-6 {
-    height: 400px;
-    background-color: white;
-    border-radius: 30px;
-    padding: 40px;
     margin-bottom: 35px;
+    text-align: center;
+}
+
+.section-6 .card-6 h5 {
+    color: white;
+}
+
+.section-6 .card-6 h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 20px 0 30px 0;
+}
+
+.section-6 .card-6 h3 {
+    font-size: 4.5rem;
+    color: rgba(253, 193, 95, 1);
+}
+
+.section-6 .card-6 p {
+    font-size: 1rem;
+    color: white;
+    padding: 30px 0;
+}
+
+.section-6 .card-6 .get-start {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 17px 70px;
+    background-color: white;
+    border-color: white;
+    color: rgba(151, 146, 228, 1);
+    letter-spacing: 2px;
+    display: inline-block;
+    border-radius: 40px;
+}
+
+.section-6 .card-6 .circle i {
+    font-size: 0.3rem;
+    padding: 0 3px;
+}
+
+.section-6 .card-6 .circle a {
+    color: white;
+}
+
+.section-6 .card-6 .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* FOOTER */

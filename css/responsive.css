@@ -200,6 +200,17 @@
         margin-bottom: 0;
     }
 
+    .section-6 .card-6 h2 {
+        font-size: 3rem;
+    }
+
+    .section-6 .card-6 p {
+        padding: 20px 100px;
+    }
+
+    .section-6 .card-6 .circle {
+        padding-bottom: 50px;
+    }
     /* FOOTER */
     footer {
         max-width: 991px;
