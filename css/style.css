@@ -10,6 +10,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
+    /* line-height: 1.5rem; */
 }
 
 /* main {
@@ -173,10 +174,7 @@ img {
 }
 
 .section-2 .card-2 {
-    /* height: 650px; */
-    /* background-color: white; */
     border-radius: 30px;
-    /* padding: 40px; */
     margin-bottom: 35px;
 }
 
@@ -279,12 +277,6 @@ img {
     color: white;
 }
 
-
-
-
-
-
-
 /* SECTION-4 */
 .section-4 {
     background-color: rgba(151, 146, 228, 1);
@@ -296,14 +288,50 @@ img {
     display: flex;
     flex-wrap: wrap;
     padding: 60px 0;
+    justify-content: center;
 }
 
 .section-4 .card-4 {
-    height: 400px;
     background-color: white;
-    border-radius: 30px;
-    padding: 40px;
+    border-radius: 20px;
+    padding: 40px 30px;
     margin-bottom: 35px;
+}
+
+.section-4 h2 {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.section-4 h4 {
+    font-size: 3rem;
+    color: rgba(151, 146, 228, 1);
+}
+
+.section-4 h3 {
+    font-size: 1.7rem;
+    color: rgba(151, 146, 228, 1);
+    padding: 30px 0;
+}
+
+.section-4 p {
+    font-size: 1.1rem;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.section-4 .more {
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 7px 50px;
+    background-color: rgba(151, 146, 228, 1);
+    border-color: rgba(151, 146, 228, 1);
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 2px;
+    display: inline-block;
 }
 
 /* SECTION-5 */
