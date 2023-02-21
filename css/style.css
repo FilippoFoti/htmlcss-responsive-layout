@@ -12,6 +12,10 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+main {
+    font-weight: 700;
+}
+
 img {
     max-width: 100%;
 }
@@ -91,6 +95,7 @@ img {
 /* SECTION-1 */
 .section-1 {
     background-color: white;
+    margin-top: 70px;
 }
 
 .section-1 .container {
@@ -103,20 +108,53 @@ img {
 }
 
 .section-1 .card-large {
-    height: 650px;
     background-color: rgba(181, 221, 255, 1);
     border-radius: 30px;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
     margin-bottom: 35px;
-
 }
 
 .section-1 .card {
-    height: 400px;
     background-color: rgba(181, 221, 255, 1);
     border-radius: 30px;
-    padding: 40px;
+    padding: 40px 40px 10px 40px;
     margin-bottom: 35px;
+    text-align: center;
+}
+
+.text-card-large h2,
+.card h2 {
+    font-size: 1.6rem;
+    color: rgba(18, 141, 253, 1);
+}
+
+.text-card-large p,
+.card p {
+    font-size: 1.2rem;
+    color: rgba(101, 123, 142, 1);
+    padding: 30px 0;
+}
+
+.text-card-large .app-store {
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 7px 50px;
+    background-color: rgba(18, 141, 253, 1);
+    border-color: rgba(18, 141, 253, 1);
+    color: white;
+    border-radius: 40px;
+    letter-spacing: 2px;
+}
+.card-large img {
+    display: block;
+    padding-top: 30px;
+    max-width: 250px;
+}
+
+.card i {
+    font-size: 6rem;
+    color: rgba(18, 141, 253, 1);
+    padding-bottom: 30px;
 }
 
 /* SECTION-2 */
