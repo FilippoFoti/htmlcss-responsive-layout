@@ -12,9 +12,9 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
-main {
+/* main {
     font-weight: 700;
-}
+} */
 
 img {
     max-width: 100%;
@@ -146,6 +146,7 @@ img {
     letter-spacing: 2px;
     display: inline-block;
 }
+
 .card-large img {
     display: block;
     padding-top: 30px;
@@ -172,11 +173,53 @@ img {
 }
 
 .section-2 .card-2 {
-    height: 650px;
-    background-color: white;
+    /* height: 650px; */
+    /* background-color: white; */
     border-radius: 30px;
-    padding: 40px;
+    /* padding: 40px; */
     margin-bottom: 35px;
+}
+
+.section-2 .card-2-white {
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.section-2 h2 {
+    font-size: 1.6rem;
+    color: white;
+    padding: 40px 0;
+}
+
+.section-2 p {
+    font-size: 1rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.section-2 .card-2-white h3 {
+    font-size: 1.4rem;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.section-2 .card-2-white p {
+    font-size: 1rem;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.section-2 .arrow-down {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px 16px;
+    background-color: rgba(151, 146, 228, 1);
+    border-color: rgba(151, 146, 228, 1);
+    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 /* SECTION-3 */
